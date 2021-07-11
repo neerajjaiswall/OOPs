@@ -1,4 +1,4 @@
-// The only difference between class and object is that:
+// The only difference between class and structure is that:
 /*
 	The members of structures are by default public and 
 	The members of class are by default private 
