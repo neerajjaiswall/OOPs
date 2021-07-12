@@ -5,9 +5,10 @@ using namespace std;
 // destrutor can never be static 
 // it dosen't have any return type 
 // takes no argument ( overloading is not possible )
-// it is invoked automatically when object is going to destory 
+// it is invoked automatically when object is going to destory
+// it is the last function that is called before object is going to destroy
 
-// It should be defined to release resources allocated to object 
+// Destructor is important because it is used  to release resources allocated to object before object get destroyed.
 
 class Complex {
 	int a,b;

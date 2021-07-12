@@ -30,7 +30,7 @@ int main() {
 	p->f1();		// now we are calling the function from pointer 'p' which is of A type so at compiler time compiler 
 				// don't know that which type of address the pointer is storing so it will just see the type of pointer 
 				// which is type 'A' and call the funcion form parent class this is called early binding. 
-				// but we function of B class to be called this is only possible if we can somehow achieve late binding that is 
+				// but we want function of B class to be called this is only possible if we can somehow achieve late binding that is 
 				// at runtime they came to know that which type of address 'p' is having so then, it will call function corresponding to that type 
 }				// for late binding of a function just add a virtual keyword prefix to it in the parent class 
 				// so now the funciton of B type will be binded. 

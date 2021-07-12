@@ -5,6 +5,8 @@
 // Constructor is implicitly invoked when object is created 
 // constructor is used to solve the problem of initialization
 
+
+// * if we have created any constructor then compiler will not create any constructor
 // if we are not creating any constructor then two constructor are created by compiler itlsef default and copy constructor 
 // if we will not create copy constructor then it is made by compiler 
 // if we create copy constructor then no default constructor is created by compiler 
